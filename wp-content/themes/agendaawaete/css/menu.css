@@ -20,10 +20,16 @@ label[for="input-menu"] {
     cursor: pointer;
 }
 
+@media(min-width: 768px) {
+    label[for="input-menu"] {
+        display: none;
+    }
+}
+
 .main-menu {
     width: 100%;
     color: #fff;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 14.4px;
     text-transform: uppercase;
     font-weight: 700;
@@ -32,6 +38,13 @@ label[for="input-menu"] {
 .main-menu .list-items {
    transform: translateX(-100%); 
    transition: all 200ms ease-in-out;
+}
+
+@media(min-width: 768px) {
+    .main-menu .list-items {
+        transform: translateX(0);
+        display: flex;
+    }
 }
 
 .main-menu .menu-item {
@@ -53,6 +66,7 @@ label[for="input-menu"] {
 
 .main-menu .sub-menu {
     overflow: hidden;
+    width: 100%;
 }
 
 .sub-menu .menu-item {
@@ -69,11 +83,61 @@ label[for="input-menu"] {
     padding-left: 40px;
 }
 
+
+@media(min-width: 768px) {
+
+    .sub-menu {
+        position: absolute;
+        visibility: hidden;
+        max-height: 0;
+    }
+
+    .menu-item:hover .sub-menu {
+        visibility: visible;
+        height: auto;
+        max-height: 200px;
+    }
+
+    .sub-menu .menu-item {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .list-items > .menu-item {
+        position: relative;
+    }
+
+    .list-items > .menu-item:before {
+        content: "\002F";
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        opacity: .6;
+    }
+
+    .list-items > .menu-item:last-child::before {
+        content: '';
+    } 
+
+    .menu-item .menu-item-anchor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-item.menu-item-has-children > .menu-item-anchor::after {
+        content: '';
+        display: block;
+        border: 5px solid transparent;
+        border-top-color: #fff;
+        opacity: inherit;
+        width: 1px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+}
+
 .sub-menu .menu-item-anchor {
     text-transform: capitalize;
 }
-/*
-.main-menu > .menu-item:not(:first-child):before {
-    content: "\002F";
-}
-*/
