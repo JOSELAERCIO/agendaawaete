@@ -1,4 +1,8 @@
-#header {
+a {
+    text-decoration: none;
+}
+
+.img-background {
     position: relative;
     width: 100%;
     height: 250px;
@@ -6,7 +10,7 @@
 }
 
 @media(min-width: 768px) {
-    #header {
+    .img-background {
         height: 413px;
         background-image: url('../img/cropped-background-pequeno-assurini.jpg');
     }
@@ -15,8 +19,8 @@
 .container-logo {
   position: absolute;
   left: 50%;
-  top: 10%;
   transform: translateX(-50%);
+  padding-top: 40px;
 }
 
 .logo {
@@ -33,7 +37,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 40%;
+    bottom: 25%;
 }
 
 .link-social-icon:not(:last-child) {

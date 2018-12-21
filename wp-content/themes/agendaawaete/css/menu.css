@@ -1,0 +1,79 @@
+/* menu */
+
+#input-menu {
+    display: none;
+}
+
+#input-menu:checked ~ .list-items {
+   transform: translateX(0);
+}
+
+label[for="input-menu"] {
+    background-color: #172225;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 30px 0 30px 20px;
+    cursor: pointer;
+}
+
+.main-menu {
+    width: 100%;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14.4px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.main-menu .list-items {
+   transform: translateX(-100%); 
+   transition: all 200ms ease-in-out;
+}
+
+.main-menu .menu-item {
+    width: 100%;
+    text-align: center;
+    background-color: #172225;
+}
+
+.main-menu .menu-item-anchor {
+    display: block;
+    color: #fff;
+    padding: 30px 0;
+    opacity: 0.6;
+}
+
+.main-menu .menu-item-anchor:hover {
+    opacity: 1;
+}
+
+.main-menu .sub-menu {
+    overflow: hidden;
+}
+
+.sub-menu .menu-item {
+    background-color: #1e2c30;
+}
+
+.sub-menu .menu-item:first-child {
+    border-top: 1px solid #6c6c6c;
+}
+
+.sub-menu .menu-item {
+    border-bottom: 1px solid #6c6c6c;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.sub-menu .menu-item-anchor {
+    text-transform: capitalize;
+}
+/*
+.main-menu > .menu-item:not(:first-child):before {
+    content: "\002F";
+}
+*/

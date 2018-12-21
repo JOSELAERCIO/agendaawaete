@@ -7,10 +7,15 @@
     <title>Agenda Awaete</title>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/reset.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/header.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/menu.css'; ?>">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:700" rel="stylesheet">
+    <?php wp_head(); ?>
 </head>
 <body>
     <header id="header">
-       <figure class="container-logo">
+    <section class="img-background">
+        <figure class="container-logo">
         <a class="link-logo" href="#">
             <img class="logo" src="<?php echo get_template_directory_uri().'/img/logo.jpg' ?>" alt="Logo da Agenda Awaete">
         </a>
@@ -54,6 +59,19 @@
                     C96.875,40.884,96.889,32.875,95.201,25.538z M35.936,63.474c0-10.716,0-21.32,0-32.037c10.267,5.357,20.466,10.678,30.798,16.068
                     C56.434,52.847,46.23,58.136,35.936,63.474z"/>
             </svg>
-           </a>
-       </div>
-    </header>
+         </a>
+    </section>
+    <nav class="main-menu">
+        <input type="checkbox" id="input-menu">
+        <label for="input-menu">&#9776; Menu</label>
+        
+        <?php wp_nav_menu(
+            array(
+                'theme_location' => 'main_menu',
+                'container' => 'ul',
+                'menu_class' => 'list-items',
+            )
+        ); ?>
+    </nav>
+    
+</header>
