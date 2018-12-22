@@ -38,6 +38,8 @@ label[for="input-menu"] {
 .main-menu .list-items {
    transform: translateX(-100%); 
    transition: all 200ms ease-in-out;
+   position: absolute;
+   width: 100%;
 }
 
 @media(min-width: 768px) {
@@ -101,6 +103,10 @@ label[for="input-menu"] {
     .sub-menu .menu-item {
         text-align: center;
         padding-left: 0;
+    }
+
+    .main-menu > .list-items {
+        position: static;
     }
 
     .list-items > .menu-item {

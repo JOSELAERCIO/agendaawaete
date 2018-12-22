@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/reset.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/header.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/menu.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/main.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/footer.css'; ?>">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 <body>

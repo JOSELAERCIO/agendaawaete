@@ -1,0 +1,29 @@
+#main {
+    background-color: #610c02;
+    width: 100%;
+    height: 1070px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    height: 935px;
+    border-radius: 5px;
+}
+
+.post-header {
+    padding: 8% 10%;
+}
+
+.post-title {
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.wp-block-embed-youtube {
+    padding: 8% 10%;
+}
