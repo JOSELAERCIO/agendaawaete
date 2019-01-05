@@ -1,4 +1,42 @@
-footer {
+.footer {
     width: 100%;
     background-color: #172225;
+}
+
+.footer-social-media {
+    display: flex;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.footer-instagram {
+    margin-right: 60px;
+}
+
+.text-footer {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+}
+
+.to-top {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 12.8px;
+}
+
+a.text-footer {
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+a.text-footer::after {
+    content: "\02191";
+    display: inline-block;
+    margin-left: 5px;
 }
