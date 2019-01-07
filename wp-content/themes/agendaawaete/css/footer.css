@@ -13,6 +13,16 @@
     margin-right: 60px;
 }
 
+.footer-social-icons .social-icon {
+    fill: #df4834;
+    width: 24px;
+    margin-top: 20px;
+}
+
+.footer-social-icons .link-social-icon:hover {
+    opacity: .7;
+}
+
 .text-footer {
     text-transform: uppercase;
     color: #ffffff;

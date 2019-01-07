@@ -33,7 +33,7 @@ a {
     }
 }
 
-.social-icons {
+.img-background > .social-icons {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

@@ -1,10 +1,11 @@
 <footer class="footer">
     <div class="footer-social-media">
         <div class="footer-instagram">
-            <p class="text-footer">Instagram Agenda Awaete</p>
+            <h3 class="text-footer">Instagram Agenda Awaete</h3>
         </div>
         <div class="footer-social-icons">
-            <p class="text-footer">Conecte-se nas redes</p>
+            <h3 class="text-footer">Conecte-se nas redes</h3>
+            <?php get_template_part( 'parts/social-icons' ); ?>
         </div>
     </div>
     <div class="to-top">
