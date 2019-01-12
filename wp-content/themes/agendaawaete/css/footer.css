@@ -43,10 +43,13 @@
 a.text-footer {
     padding-top: 60px;
     padding-right: 60px;
+    position: relative;
 }
 
 a.text-footer::after {
     content: "\02191";
     display: inline-block;
     margin-left: 5px;
+    position: absolute;
+    bottom: -19px;
 }

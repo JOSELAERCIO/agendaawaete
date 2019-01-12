@@ -71,6 +71,12 @@ label[for="input-menu"] {
     width: 100%;
 }
 
+@media(min-width: 768px) {
+    .main-menu .sub-menu {
+        overflow: visible;
+    }
+}
+
 .sub-menu .menu-item {
     background-color: #1e2c30;
 }
@@ -84,7 +90,6 @@ label[for="input-menu"] {
     text-align: left;
     padding-left: 40px;
 }
-
 
 @media(min-width: 768px) {
 
