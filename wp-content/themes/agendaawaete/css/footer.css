@@ -1,6 +1,7 @@
 .footer {
     width: 100%;
     background-color: #172225;
+    overflow: hidden;
 }
 
 .footer-social-media {

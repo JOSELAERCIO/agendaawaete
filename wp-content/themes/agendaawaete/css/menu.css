@@ -35,11 +35,18 @@ label[for="input-menu"] {
     font-weight: 700;
 }
 
+@media(max-width: 768px) {
+    .main-menu {
+        overflow: hidden;
+    }
+}
+
 .main-menu .list-items {
    transform: translateX(-100%); 
    transition: all 200ms ease-in-out;
    position: absolute;
    width: 100%;
+   z-index: 2;
 }
 
 @media(min-width: 768px) {
