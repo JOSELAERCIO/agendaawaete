@@ -24,6 +24,23 @@
     text-transform: uppercase;
 }
 
-.wp-block-embed-youtube {
+/* .wp-block-embed-youtube {
     padding: 8% 10%;
+} */
+
+.wp-block-embed__wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.wp-block-embed__wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    margin: 10%;
 }
