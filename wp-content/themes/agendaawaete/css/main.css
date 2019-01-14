@@ -28,31 +28,6 @@
 .post-header {
     padding: 8% 10%;
     border-bottom: 1px solid #eee;
-    position: relative;
-}
-
-.post-header:before, .post-header:after {
-    display: inline-block;
-    content: '';
-    vertical-align: middle;
-    position: absolute;
-    left: 10%;
-    width: 0;
-    height: 0;
-}
-
-.post-header:before {
-    bottom: -12px;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-top: 12px solid #eee;
-}
-
-.post-header:after {
-    bottom: -11px;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-top: 12px solid #fff;
 }
 
 .wp-block-embed__wrapper {
