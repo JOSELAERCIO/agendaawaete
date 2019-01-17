@@ -27,7 +27,33 @@
 
 .post-header {
     padding: 8% 10%;
-    border-bottom: 1px solid #eee;
+}
+
+.wp-block-embed-youtube {
+    border-top: 1px solid #eee;
+    position: relative;
+}
+
+.wp-block-embed-youtube:before, .wp-block-embed-youtube:after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 10%;
+}
+
+.wp-block-embed-youtube::before {
+    border-top: 12px solid #eee;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent; 
+}
+
+.wp-block-embed-youtube::after {
+    top: -1px;
+    border-top: 12px solid #fff;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent; 
 }
 
 .wp-block-embed__wrapper {
