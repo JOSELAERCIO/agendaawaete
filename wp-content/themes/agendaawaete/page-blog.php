@@ -6,23 +6,28 @@
 <?php get_header(); ?>
 <main id="main">
 
-    <section class="content">
+    <section class="content -blog">
       
       <?php 
 
-            $recent_posts = wp_get_recent_posts(); 
-            foreach( $recent_posts as $recent ) {
-                echo '<article>
-                        <header>
-                            <a href="'. get_permalink( $recent["ID"] ) .'">'.$recent["post_title"].'</a>
-                            <p>' .wp_trim_excerpt( $recent["post_content"] ). '</p>
-                        </header>
-                     </article>';                
-            }
-            wp_reset_query();
+      $args = array(
+          'posts_per_page' => 10,
+      );
+
+      $recent_posts = new WP_Query( $args );
+
+      if ( $recent_posts->have_posts() ) :
+        while( $recent_posts->have_posts() ) :
+            $recent_posts->the_post(); ?>
+
+            <?php get_template_part('parts/recent-posts'); ?>
             
+            <?php
+        endwhile;
+        wp_reset_postdata();
+      endif;
       ?>
-       
+      
     </section>
     
 </main>
