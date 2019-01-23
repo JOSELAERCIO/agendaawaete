@@ -12,5 +12,6 @@
         <?php get_template_part('parts/svg/time'); ?>
         <?php echo get_the_date(); ?>
         <?php get_template_part('parts/svg/comments'); ?>
+        <?php echo get_comments_number(); ?> 
     </div>
 </article>

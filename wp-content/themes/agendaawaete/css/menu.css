@@ -133,6 +133,24 @@ label[for="input-menu"] {
         opacity: .6;
     }
 
+    .sub-menu .menu-item:first-child {
+        border-top: none;
+    }
+
+    .sub-menu .menu-item:first-child::before {
+       display: inline-block;
+       content: "";
+       width: 0;
+       height: 0;
+       border-bottom: 10px solid #1e2c30;
+       border-left: 10px solid transparent;
+       border-right: 10px solid transparent; 
+       position: absolute;
+       bottom: 100%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
     .list-items > .menu-item:last-child::before {
         content: '';
     } 
