@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/reset.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/header.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/menu.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/main.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/home.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/footer.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/blog.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single.css'; ?>">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">

@@ -39,8 +39,9 @@
     background-color: #fff;
     max-width: 375px;
     width: 100%;
-    margin: 20px;
     border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .post-thumbnail {
@@ -68,11 +69,12 @@
     color: #444;
     line-height: 25.65px;
     font-weight: 300;
+    margin-bottom: 40px;
 }
 
 .more-link {
     display: inline-block;
-    margin-top: 20px;
+    margin: 20px 0 40px;
     color: #ba2f1d;
     text-transform: capitalize;
     border: 1px solid transparent;
@@ -97,6 +99,9 @@
     font-weight: 700;
     color: #ba2f1d;
     cursor: pointer;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .post-date > .icon {
