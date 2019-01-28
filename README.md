@@ -1,3 +1,3 @@
 # agendaawaete
 
-Repositório do site Agenda Awaetr
+Repositório do site Agenda Awaete
