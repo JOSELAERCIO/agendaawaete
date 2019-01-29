@@ -1,0 +1,10 @@
+#main {background-color: #610c02;width: 100%;display: flex;align-items: center;}
+.content {background-color: #fff;width: 90%;margin: 5%;border-radius: 5px;}
+@media (min-width: 768px) {.content {width: 70%;margin: 5% auto;}}
+.post-title {font-family: "Muli",sans-serif;font-size: 40px;text-transform: uppercase;padding: 8% 10%;}
+.wp-block-embed-youtube {border-top: 1px solid #eee;position: relative;}
+.wp-block-embed-youtube:before, .wp-block-embed-youtube:after {display: block;content: "";width: 0;height: 0;position: absolute;left: 10%;}
+.wp-block-embed-youtube::before {border-top: 12px solid #eee;border-left: 12px solid transparent;border-right: 12px solid transparent;}
+.wp-block-embed-youtube::after {top: -1px;border-top: 12px solid #fff;border-left: 12px solid transparent;border-right: 12px solid transparent;}
+.wp-block-embed__wrapper {position: relative;padding-bottom: 56.25%;padding-top: 35px;height: 0;overflow: hidden;}
+.wp-block-embed__wrapper iframe {position: absolute;top: 0;left: 0;width: 80%;height: 100%;margin: 10%;}

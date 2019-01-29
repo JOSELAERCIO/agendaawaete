@@ -1,0 +1,12 @@
+404:/robots.txt
+404:/favicon.ico
+404:/sitemap.xml
+404:/agendaawaete/
+404:/agendaawaete/2018/
+404:/agendaawaete/2018/12/
+404:/agendaawaete/2018/12/17/
+404:/agendaawaete/2018/12/21/
+404:/agendaawaete/2018/12/25/
+404:/páginas/page/1
+404:/páginas/page/2
+404:/posts/page/1
