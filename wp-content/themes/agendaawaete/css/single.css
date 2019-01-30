@@ -2,3 +2,10 @@
     text-transform: initial;
 }
 
+.icon.-folder {
+    fill: #fff;
+    stroke: #fff;
+    stroke-linecap: round; 
+    stroke-linejoin: round;
+    stroke-miterlimit:10;
+}

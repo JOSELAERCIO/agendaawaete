@@ -1,0 +1,9 @@
+.footer {width: 100%;background-color: #172225;overflow: hidden;}
+.footer-social-media {display: flex;padding-left: 60px;padding-top: 60px;}
+.footer-instagram {margin-right: 60px;}
+.footer-social-icons .social-icon {fill: #df4834;width: 24px;margin-top: 20px;}
+.footer-social-icons .link-social-icon:hover {opacity: .7;}
+.text-footer {text-transform: uppercase;color: #fff;font-size: 14px;font-family: "Muli",sans-serif;}
+.to-top {position: relative;width: 100%;height: 60px;line-height: 60px;text-align: right;font-family: "Alegreya Sans",sans-serif;font-size: 12.8px;}
+a.text-footer {padding-top: 60px;padding-right: 60px;position: relative;}
+a.text-footer::after {content: "↑";display: inline-block;margin-left: 5px;position: absolute;bottom: -19px;}
