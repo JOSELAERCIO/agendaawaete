@@ -2,6 +2,69 @@
     text-transform: initial;
 }
 
+.post-meta-container {
+    width: 100%;
+    background-color: #1e2c30;
+}
+
+.entry-author {
+    padding: 30px;
+    position: relative;
+    color: #ffffff;
+}
+
+.entry-author::before, .entry-author::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 30px;
+}
+
+.entry-author::before {
+    top: 0;
+    height: 70px;
+    width: 40px;
+    background-color: #ba2f1d;
+}
+
+.entry-author::after {
+    width: 0;
+    height: 0;
+    top: 50px;
+    border: 20px solid transparent;
+    border-right-color: #ba2f1d;
+    border-left-color: #ba2f1d;
+}
+
+.author-title {
+    font-family: "Muli", sans-serif;
+    font-size: 19.8px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+
+.avatar-container {
+    position: absolute;
+    top: 25px;
+    left: 33px;
+    height: 70px;
+}
+
+.avatar {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.author-bio {
+    font-size: 15.7px;
+    font-family: "Alegreya Sans", sans-serif;
+    margin-left: 70px;
+}
+
+.author-link {
+    color: #e57d6f;
+}
+
 .icon.-folder {
     fill: #fff;
     stroke: #fff;
@@ -9,3 +72,4 @@
     stroke-linejoin: round;
     stroke-miterlimit:10;
 }
+
