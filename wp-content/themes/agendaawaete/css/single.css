@@ -4,13 +4,27 @@
 
 .post-meta-container {
     width: 100%;
-    background-color: #1e2c30;
+    display: flex;
+}
+
+@media( max-width: 838px ) {
+    .post-meta-container {
+        flex-direction: column;
+    }
 }
 
 .entry-author {
     padding: 30px;
     position: relative;
     color: #ffffff;
+    width: 60%;
+    background-color: #1e2c30;
+}
+
+@media( max-width: 838px ) {
+    .entry-author {
+        width: 100%;
+    }
 }
 
 .entry-author::before, .entry-author::after {
@@ -58,18 +72,110 @@
 .author-bio {
     font-size: 15.7px;
     font-family: "Alegreya Sans", sans-serif;
-    margin-left: 70px;
+    margin-left: 60px;
+}
+
+.icon.-archive-block {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.circle-archive-container {
+    fill: #fff;
+    opacity: .1;
+}
+
+.icon.-archive-block:hover .circle-archive-container {
+    fill: #ba2f1d;
+    opacity: 1;
+}
+
+.archive-block-inner {
+    fill: #fff;
+    width: 15px;
+    vertical-align: middle;
 }
 
 .author-link {
     color: #e57d6f;
+    display: flex;
+    align-items: center;
 }
 
-.icon.-folder {
-    fill: #fff;
-    stroke: #fff;
-    stroke-linecap: round; 
-    stroke-linejoin: round;
-    stroke-miterlimit:10;
+.post-meta {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 15.3;
+    font-weight: 700;
+    color: #ffffff;
+    width: 40%;
+    background-color: #3f4854;
+    padding: 30px;
 }
+
+@media( max-width: 838px ) {
+    .post-meta {
+        width: 100%;
+    }
+}
+
+.post-meta-single {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.post-categories-container {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    padding-bottom: 12px;
+}
+
+.post-categories a {
+    color: #ffffff;
+}
+
+.post-categories a:hover {
+    opacity: .6;
+}
+
+.icon.-time {
+    fill: #fff;
+}
+
+.icon.-open-folder {
+    fill: #fff;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.navigation-next-preview {
+    margin-top: 12px;
+}
+
+.nav-previous, .nav-next {
+    display: flex;
+    align-items: center;
+}
+
+.nav-next {
+    margin-top: 12px;
+}
+
+.icon.-arrow-left, .icon.-arrow-right {
+    width: 18px;
+    height: 18px;
+    fill: #fff;
+}
+
+.nav-previous > a, .nav-next > a {
+    color: #fff;
+    margin-left: 12px;
+}
+
+.nav-previous > a:hover, .nav-next a:hover {
+    opacity: .6;
+}
+
+
 

@@ -17,8 +17,33 @@
         <h2 class="author-title">Publicado por <?php the_author(); ?></h2>
         <div class="author-bio">
             <a class="author-link" target="_blank" href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
+                <?php get_template_part('parts/svg/archive-block'); ?>
                 Ver todos os posts de <?php the_author(); ?>
             </a>
         </div>
+    </div>
+    <div class="post-meta">
+        
+        <time class="post-meta-single">
+            <?php get_template_part( 'parts/svg/time' ); ?>
+            <?php the_date(); ?>
+        </time>
+
+        <div class="post-categories-container">
+            <?php get_template_part( 'parts/svg/open-folder' ); ?>
+            <?php the_category(); ?>
+        </div>
+
+        <nav class="navigation-next-preview" role="navigation">
+            <div class="nav-previous">
+                <?php get_template_part( 'parts/svg/circle-arrow-left' ) ?>
+                <?php previous_post_link('%link'); ?>  
+            </div>
+            <div class="nav-next">
+                <?php get_template_part( 'parts/svg/circle-arrow-right' ) ?>
+                <?php next_post_link('%link'); ?>
+            </div>
+        </nav>
+
     </div>
 </div>
