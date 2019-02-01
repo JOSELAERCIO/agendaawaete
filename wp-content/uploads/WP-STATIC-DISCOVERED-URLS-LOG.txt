@@ -11,7 +11,9 @@
 /2018/12/25/um-natal-de-mais-acoes-2/feed/
 /agenda-awaete/
 /atividades/
+/author/admin/
 /blog/
+/category/sem-categoria/
 /category/sem-categoria/feed/
 /conexoes/
 /contato/

@@ -104,12 +104,12 @@
     bottom: 0;
 }
 
-.post-date > .icon {
+.post-date > .icon.-time, .post-date > .icon.-comments {
     fill: #ba2f1d;
     vertical-align: middle;
 }
 
-.icon.-time {
+.post-date > .icon.-time {
     width: 14px;
     margin-right: 5px;
 }

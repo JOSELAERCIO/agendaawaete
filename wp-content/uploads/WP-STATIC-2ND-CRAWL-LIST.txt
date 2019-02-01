@@ -3,6 +3,7 @@
 /2018/12/17/aprendendo-compartilhando-e-levando-saberes-para-o-desenvolvimento-cultural-e-fortalecimento-da-memoria/feed/
 /2018/12/21/agenda-awaete/feed/
 /2018/12/25/um-natal-de-mais-acoes-2/feed/
+/author/admin/
 /category/sem-categoria/feed/
 /wp-content/plugins/add-to-any/addtoany.min.css
 /wp-content/plugins/add-to-any/addtoany.min.js

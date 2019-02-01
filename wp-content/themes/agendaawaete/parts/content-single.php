@@ -37,7 +37,7 @@
         <nav class="navigation-next-preview" role="navigation">
             <div class="nav-previous">
                 <?php get_template_part( 'parts/svg/circle-arrow-left' ) ?>
-                <?php previous_post_link('%link'); ?>  
+                <?php previous_post_link( '%link' ); ?>  
             </div>
             <div class="nav-next">
                 <?php get_template_part( 'parts/svg/circle-arrow-right' ) ?>
@@ -47,3 +47,9 @@
 
     </div>
 </div>
+
+<?php 
+    if ( comments_open() || get_comments_number() ) :
+        comments_template();
+    endif;
+?>

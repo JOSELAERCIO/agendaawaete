@@ -107,7 +107,7 @@
     font-size: 15.3;
     font-weight: 700;
     color: #ffffff;
-    width: 40%;
+    width: 41%;
     background-color: #3f4854;
     padding: 30px;
 }
@@ -138,15 +138,18 @@
     opacity: .6;
 }
 
-.icon.-time {
+.post-meta-single > .icon.-time {
     fill: #fff;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
 }
 
 .icon.-open-folder {
     fill: #fff;
     width: 15px;
     height: 15px;
-    margin-right: 5px;
+    margin-right: 12px;
 }
 
 .navigation-next-preview {
@@ -155,7 +158,6 @@
 
 .nav-previous, .nav-next {
     display: flex;
-    align-items: center;
 }
 
 .nav-next {
@@ -171,11 +173,30 @@
 .nav-previous > a, .nav-next > a {
     color: #fff;
     margin-left: 12px;
+    max-width: 250px;
 }
 
 .nav-previous > a:hover, .nav-next a:hover {
     opacity: .6;
 }
+
+#comments {
+    padding: 10%;
+}
+
+#comment {
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#reply-title {
+    font-family: 'Muli', sans-serif;
+    font-size: 31.5px;
+    margin-bottom: 15px;
+}
+
 
 
 
