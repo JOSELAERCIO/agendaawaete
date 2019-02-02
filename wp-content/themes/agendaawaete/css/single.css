@@ -197,6 +197,24 @@
     margin-bottom: 15px;
 }
 
+#commentform > p {
+    margin: 12px 0;
+}
 
+.comment-form-author label {
+    margin: 12px 0;
+    font-family: "Alegreya sans", sans-serif;
+}
+
+#author, #email {
+    margin: 0 5%;
+    padding-left: 10px;
+    width: 90%;
+}
+
+#commentform > .form-submit {
+    display: flex;
+    justify-content: flex-end;
+}
 
 
