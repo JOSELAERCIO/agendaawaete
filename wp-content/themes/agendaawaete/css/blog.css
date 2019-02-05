@@ -1,10 +1,11 @@
-.post-header.-title {
+.post-header-blog {
     font-family: 'Muli';
     color: #1e2c30;
     position: relative;
+    padding: 8% 10%;
 }
 
-.post-header.-title::before {
+.post-header-blog::before {
     position: absolute;
     display: block;
     content: '';

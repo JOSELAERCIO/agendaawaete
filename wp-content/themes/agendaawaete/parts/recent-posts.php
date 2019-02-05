@@ -1,5 +1,5 @@
 <article class="container-post">
-    <header class="post-header -title">
+    <header class="post-header-blog">
         <a class="title-post-link" href="'<?php echo get_the_permalink(); ?>.'"><?php the_title(); ?></a>
     </header>
     <figure class="post-thumbnail"><?php the_post_thumbnail( array(375, 375) ,array('class' => 'img-thumbnail') ); ?></figure>

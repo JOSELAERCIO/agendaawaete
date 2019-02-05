@@ -4,7 +4,12 @@
             <?php the_title(); ?>
         </h1>
     </header>
-    <?php the_content(); ?>
+    <div class="post-thumbnail-single-container">
+        <?php the_post_thumbnail( 'medium_large', array( 'class' => 'thumbnail-post-single' ) ); ?>
+    </div>
+    <div class="post-content-single">
+        <?php the_content(); ?>
+    </div>
 </article>
 
 <div class="post-meta-container">

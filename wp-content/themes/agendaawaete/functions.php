@@ -20,3 +20,9 @@ function wpdocs_excerpt_more( $more ) {
     return '...<br><a class="more-link" href="'.get_the_permalink().'" rel="nofollow">Continue lendo</a>';
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
+/* Add class to first paragraph in content */
+function add_class_paragraph($content){
+    return preg_replace('/<p([^>]+)?>/', '<p$1 class="paragraph-content">', $content);
+}
+add_filter('the_content', 'add_class_paragraph');
