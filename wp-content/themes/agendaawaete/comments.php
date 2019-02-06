@@ -55,6 +55,8 @@ if ( post_password_required() ) {
 						'style'       => 'ol',
 						'short_ping'  => true,
 						'avatar_size' => 42,
+						'callback'    => 'format_comment_2',
+						'type'        =>  'comment'  
 					)
 				);
 			?>

@@ -280,3 +280,40 @@
     border: 1px solid #555;
 }
 
+#comments {
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.comment-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comment-avatar-author {
+    float: left;
+    margin-right: 10px;
+}
+
+.comment-header, .comment-text {
+    margin-bottom: 10px;
+}
+
+.comment-author {
+    color: #ff0000;
+}
+
+.comment-date:before {
+    display: inline-block;
+    content: "";
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    vertical-align: middle;
+    margin: 5px 0;
+}
+
+.children {
+    margin-top: 20px;
+    margin-left: 50px;
+}
