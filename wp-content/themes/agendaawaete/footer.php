@@ -2,6 +2,7 @@
     <div class="footer-social-media">
         <div class="footer-instagram">
             <h3 class="text-footer">Instagram Agenda Awaete</h3>
+            <?php echo do_shortcode( '[instagram-feed]' ) ?>
         </div>
         <div class="footer-social-icons">
             <h3 class="text-footer">Conecte-se nas redes</h3>
